@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{font-family:'Poppins', sans-serif;;
+    padding: 0;
+    margin: 0 0 auto 0;    
+}
+
+/* body{
+
+} */
+
+/* HEADER + NAV */
+header{
+    background-color: #7EC2C7;
+    /*margin: 2vh 10%;*/
+    border-radius: 0 0 0.3rem 0.3rem;
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+}
+
+nav {
+    margin: 0 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.texto_navbar{
+    color: white;
+    margin: 25px auto;
+    padding-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 50ms;
+}  
+
+.texto_navbar:hover {
+    color: #838383;
+    font-size: 22px;
+    transform: scale(1.5);
+}  
+
+.logo_inicio{
+    width: 10rem; 
+    padding-top: 0.3rem;
+    margin-right: 40px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    }
+
+/* BANNER */
+
+h1{
+    color: #fff;
+    font-size: 60px;
+    margin: 2vh 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    background: radial-gradient(#B05574, #F87E7B, #FAB87F);
+    max-width: 75%;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ¿QUIÉNES SOMOS? */
+
+.container{    
+    /*height: 40vh;*/
+    width: 90vw;
+    margin: 3rem auto;
+    display: flex; 
+    justify-content: space-between;   
+}
+
+#quienes_somos{
+    margin: 5vh auto;
+}
+
+.user{
+    background-color: rgba(246, 226, 177, 0.3);
+    overflow:hidden;
+    margin: 0 0.2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user p {
+    text-align: center;
+    padding-top: 1vh;
+    width: 19vw;
+    height: 4vh;
+}
+
+.foto img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 2rem 0;    
+    object-fit: cover;
+}   
+
+.user_card:hover{    
+    transform: scale(1.25);
+    background-color: rgb(248, 236, 206);
+    margin: 2rem 0;
+}   
+
+h2 {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 3px solid #FAB87F;  
+    text-align: center;
+}
+
+.h2_headers {
+    width: 40rem;
+    margin: auto;
+}
+
+.h2_name {
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left: 20%;
+    transition: 300ms;
+}
+
+.h2_name:hover {
+    letter-spacing: 4px;
+}
+
+.principal{
+     width: 100%;
+     
+}
+
+/* BARRA STATUS */
+
+.barras_status{
+    
+    height: 5vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icono{
+    height: 3vh ;
+}
+
+.barrita{
+    width: 70%;
+}
+
+#barra_progreso section{
+    display: flex;
+    margin: 5vh auto 0;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+#barra_progreso progress{
+    width: 80%;
+    align-self: center;
+    height: 7vh;
+    
+}
+
+#barra_progreso{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+
+/* HERRAMIENTAS UTILIZADAS */
+
+.container_tools {
+    padding: 0 20rem;
+}
+
+.group_tools {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    height: 15rem;
+ 
+}
+
+.tools {
+    margin-left: 10px;
+    display: flex;
+    height: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+#tools_visual {
+    font-size: 22px;
+    position: relative;
+    left: 0.5rem;
+    top: 4.5rem;
+}
+
+.tools img {
+    position: relative;
+    left: 5rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.description_tool {
+    padding-top: 10%;
+    padding-left: 5%;
+    background-color: rgba(246, 226, 177, 0.3);
+    background-position: 10%;
+    border-radius: 50%;
+    min-height: 10rem;
+    width: 12rem;
+}
+
+.description_tool p {
+    position: relative;
+    top: 4rem;
+    left: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tool_card:hover {
+    transform: scale(1.2);
+    margin: 0 0 auto 0;
+}
+
+.description_tool:hover {
+    background-color: rgb(248, 236, 206);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #7EC2C7 ;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 10%;
+}
+
+
